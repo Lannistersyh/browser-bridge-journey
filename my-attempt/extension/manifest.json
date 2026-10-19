@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "EdgeBridge",
+  "version": "2.0.0",
+  "description": "Edge 内嵌常驻浏览器桥：native messaging + chrome.debugger，零 TCP 端口、零授权弹窗。Agent 经 Unix socket 即可列标签页/执行 JS/截图/真实键鼠输入。",
+  "permissions": [
+    "debugger",
+    "nativeMessaging",
+    "tabs",
+    "scripting",
+    "alarms"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "VonFrey Bridge"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuXdfci51ZiXuF3i2l/MaFHB8Vqe4InTSPCMmXwrYPtc2NxjWMzPiEvnRrSezXzJIZSYifm2XMrpiaCnOeUx0AF+x6W6kLThUCHk8glwIJrUCmL7hZYSMkAeziyLnK+eVPQssIsrsV983U57HZaEewt1lbiDG08AJmCK+Y0ZlZt6VFO4Q1AcYfbgsaU4Ho0vr3f/6g5JB0x5cQL/sOO9B+uqz++ralFZa3pkm7RIHSpPQbW8M+LVz7xYPxvQaM9Q7XbDtkQoatbrWjfbA8LhVMp9cZoYuzu7FnYRLGayo8PpT6jyo+V93MNGiP7o9s1fr/GJMdLqZaJe9QheE8h1YqQIDAQAB"
+}

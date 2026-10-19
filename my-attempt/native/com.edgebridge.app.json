@@ -1,0 +1,9 @@
+{
+  "name": "com.edgebridge.app",
+  "description": "EdgeBridge 原生宿主",
+  "path": "/Users/admin/科研项目/edgebridge/native/host.sh",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://gpbjhbbgbanmgchpdbpfabikaggioaka/"
+  ]
+}
